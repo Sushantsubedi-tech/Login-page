@@ -1,0 +1,112 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(89, 35, 151);
+}
+
+#login-container {
+    height: 27rem;
+    width: 25rem;
+    background-color: rgb(255, 255, 255);
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h1 {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    color: rgb(10, 124, 255);
+
+}
+
+.header p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+#input {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+::placeholder {
+    padding-left: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: capitalize;
+    font-size: large;
+}
+
+.user i {
+    position: absolute;
+    padding-left: 10px;
+    padding-top: 12px;
+}
+
+.user input {
+    margin-left: 0.45rem;
+    height: 40px;
+    width: 350px;
+    border: transparent;
+    background-color: rgb(211, 230, 223);
+}
+
+.forgot {
+    padding-left: 65%;
+}
+
+.forgot a {
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#log {
+    padding-left: 3rem;
+    padding-top: 20px;
+}
+
+#log button {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border: transparent;
+    color: white;
+    height: 40px;
+    width: 300px;
+    background-color: rgb(65, 65, 255);
+}
+
+.register {
+    padding-top: 20px;
+    padding-left: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
